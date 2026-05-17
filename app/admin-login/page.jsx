@@ -73,7 +73,7 @@ export default function AdminLoginPage() {
 
           <div className="mt-6 p-3 bg-stone-50 rounded-xl">
             <p className="text-center text-xs text-stone-400">
-              <span className="font-semibold text-stone-500">Password:</span> admin@raja123
+              <span className="font-semibold text-stone-500">Password:</span> admin@accessonly
             </p>
           </div>
         </div>
