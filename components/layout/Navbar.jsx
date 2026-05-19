@@ -40,9 +40,13 @@ export default function Navbar() {
     <>
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/95 backdrop-blur-md shadow-sm" : "bg-white"}`}>
         {/* Announcement bar */}
-        <div className="bg-gradient-to-r from-rose-600 to-rose-500 text-white text-center py-2 text-[11px] font-medium tracking-wide">
+        {/* <div className="bg-gradient-to-r from-rose-600 to-rose-500 text-white text-center py-2 text-[11px] font-medium tracking-wide">
           <span className="hidden sm:inline">✨ FREE SHIPPING ABOVE ₹999 &nbsp;|&nbsp; EASY 7-DAY RETURNS &nbsp;|&nbsp; SHOP NOW ✨</span>
           <span className="sm:hidden">✨ Free Shipping above ₹999 ✨</span>
+        </div> */}
+        <div className="bg-gradient-to-r from-rose-600 to-rose-500 text-white text-center py-2 text-[11px] font-medium tracking-wide">
+          <span className="hidden sm:inline">✨ TRENDING WOMEN’S FASHION &nbsp;|&nbsp; STYLES YOU’LL LOVE TO WEAR &nbsp;|&nbsp; SHOP NOW ✨</span>
+          <span className="sm:hidden">✨ TRENDING WOMEN’S FASHION ✨</span>
         </div>
 
         <div className="container-xl">
