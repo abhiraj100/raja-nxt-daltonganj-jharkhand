@@ -1,4 +1,4 @@
-export const CATEGORIES = ["All","Sarees","Kurtis","Lehengas","Salwar Suits","Western Wear","Accessories","Footwear"];
+export const CATEGORIES = ["All","Sarees","Kurtis","Lehengas","Salwar Suits"];
 export const BADGES = ["Bestseller","New","Premium","Trending","Sale"];
 
 export const STORE_INFO = {
@@ -10,7 +10,7 @@ export const STORE_INFO = {
   address: "Shop No. 12, Near Alankar Jwellers, Thana Road, Daltonganj, Jharkhand – 822101",
   hours: [
     { day: "Monday – Friday", time: "10:00 AM – 9:00 PM" },
-    { day: "Saturday",        time: "9:30 AM – 9:00 PM" },
+    { day: "Saturday",        time: "10:30 AM – 9:00 PM" },
     { day: "Sunday",          time: "11:00 AM – 7:00 PM" },
   ],
   social: { instagram: "#", facebook: "#", whatsapp: "https://wa.me/918877085761" },

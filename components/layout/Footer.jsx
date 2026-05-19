@@ -35,7 +35,8 @@ export default function Footer() {
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-widest text-stone-300 mb-5">Categories</h3>
             <ul className="space-y-2.5">
-              {["Salwar Suits","Western Wear","Accessories","Footwear","New Arrivals","Sale Items"].map((c) => (
+              {/* {["Salwar Suits","Western Wear","Accessories","Footwear","New Arrivals","Sale Items"].map((c) => ( */}
+              {["Salwar Suits","New Arrivals","Sale Items"].map((c) => (
                 <li key={c}><Link href={`/products?category=${encodeURIComponent(c)}`} className="text-stone-400 text-sm hover:text-rose-400 transition-colors">{c}</Link></li>
               ))}
             </ul>

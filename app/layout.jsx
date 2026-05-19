@@ -6,7 +6,8 @@ import Toast from "@/components/ui/Toast";
 
 export const metadata = {
   title: { default: "Raja Nxt — Women's Fashion | Daltonganj", template: "%s | Raja Nxt" },
-  description: "Daltonganj's premier women's fashion store. Sarees, Kurtis, Lehengas, Western Wear & more. Shop now!",
+  // description: "Daltonganj's premier women's fashion store. Sarees, Kurtis, Lehengas, Western Wear & more. Shop now!",
+  description: "Daltonganj's premier women's fashion store. Sarees, Kurtis, Lehengas & more. Shop now!",
   keywords: ["women fashion", "sarees", "kurtis", "lehengas", "daltonganj", "jharkhand", "ethnic wear"],
   openGraph: {
     title: "Raja Nxt — Women's Fashion",

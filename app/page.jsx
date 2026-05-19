@@ -21,9 +21,9 @@ const CATEGORIES = [
   { name:"Sarees",       img:"https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&q=80" },
   { name:"Kurtis",       img:"https://images.unsplash.com/photo-1583391733956-6c78276477e1?w=400&q=80" },
   { name:"Lehengas",     img:"https://images.unsplash.com/photo-1617627143233-a09de2e78041?w=400&q=80" },
-  { name:"Western Wear", img:"https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&q=80" },
-  { name:"Accessories",  img:"https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&q=80" },
-  { name:"Footwear",     img:"https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&q=80" },
+  // { name:"Western Wear", img:"https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&q=80" },
+  // { name:"Accessories",  img:"https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&q=80" },
+  // { name:"Footwear",     img:"https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&q=80" },
 ];
 const TESTIMONIALS = [
   { name:"Priya Singh",   city:"Patna",       rating:5, text:"Amazing collection! Got my wedding lehenga from here and everyone loved it. The quality is outstanding." },
