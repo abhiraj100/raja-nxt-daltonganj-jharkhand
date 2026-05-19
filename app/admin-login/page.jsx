@@ -71,11 +71,11 @@ export default function AdminLoginPage() {
             <p className="text-xs text-amber-600 text-center mt-3">{5 - attempts} attempt{5-attempts!==1?"s":""} bache hain</p>
           )}
 
-          <div className="mt-6 p-3 bg-stone-50 rounded-xl">
+          {/* <div className="mt-6 p-3 bg-stone-50 rounded-xl">
             <p className="text-center text-xs text-stone-400">
               <span className="font-semibold text-stone-500">Password:</span> admin@accessonly
             </p>
-          </div>
+          </div> */}
         </div>
         <p className="text-center text-xs text-stone-400 mt-4">Raja Nxt Admin v3.0 · Next.js</p>
       </div>
