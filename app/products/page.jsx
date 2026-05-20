@@ -6,6 +6,7 @@ import { useStore } from "@/context/StoreContext";
 import { CATEGORIES, STORE_INFO } from "@/data/products";
 import ProductCard from "@/components/ui/ProductCard";
 import QuickViewModal from "@/components/ui/QuickViewModal";
+import CheckoutModal from "@/components/ui/CheckoutModal";
 
 const SORT_OPTIONS = [
   { value:"default",    label:"Featured" },
@@ -88,7 +89,8 @@ function ProductsContent() {
   const [filterOpen,  setFilterOpen]  = useState(false);
   const [quickView,   setQuickView]   = useState(null);
   const [cartOpen,    setCartOpen]    = useState(false);
-  const [addedPopup,  setAddedPopup]  = useState(null); // { item }
+  const [addedPopup,     setAddedPopup]     = useState(null);
+  const [checkoutOpen,   setCheckoutOpen]   = useState(false);
 
   useEffect(() => {
     const cat = searchParams.get("category");
@@ -108,9 +110,10 @@ function ProductsContent() {
   }, [cartCount]);
 
   const handleCheckout = useCallback(() => {
-    openWhatsApp(cart, cartTotal);
     setCartOpen(false);
-  }, [cart, cartTotal]);
+    setAddedPopup(null);
+    setCheckoutOpen(true);
+  }, []);
 
   const filtered = useMemo(() => {
     let list = [...products];
@@ -268,6 +271,7 @@ function ProductsContent() {
                   <MessageCircle size={18}/>
                   Checkout (WhatsApp)
                 </button>
+                {/* Checkout modal */}
                 <button onClick={clearCart} className="w-full text-xs text-stone-400 hover:text-rose-500 transition-colors">Clear bag</button>
               </div>
             )}
@@ -290,8 +294,17 @@ function ProductsContent() {
           item={addedPopup.item}
           cartTotal={cartTotal}
           cartCount={cartCount}
-          onCheckout={() => { handleCheckout(); setAddedPopup(null); }}
+          onCheckout={handleCheckout}
           onClose={() => setAddedPopup(null)}
+        />
+      )}
+
+      {/* ── Checkout Modal ─────────────────────────────────── */}
+      {checkoutOpen && (
+        <CheckoutModal
+          cart={cart}
+          cartTotal={cartTotal}
+          onClose={() => setCheckoutOpen(false)}
         />
       )}
     </div>

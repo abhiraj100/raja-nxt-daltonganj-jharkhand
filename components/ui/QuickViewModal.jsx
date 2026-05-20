@@ -166,6 +166,7 @@ export default function QuickViewModal({ product, onClose, onCheckout }) {
                     className="w-full py-3 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold text-sm flex items-center justify-center gap-2 transition-colors">
                     <MessageCircle size={16}/> Checkout on WhatsApp →
                   </button>
+                  {/* onCheckout opens CheckoutModal with details form */}
                 </div>
               ) : (
                 <button onClick={handleAdd} disabled={!product.inStock}
