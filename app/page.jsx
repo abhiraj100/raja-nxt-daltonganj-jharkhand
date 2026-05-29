@@ -12,7 +12,7 @@ const HERO_SLIDES = [
   { title:"Bridal Collection", subtitle:"Look Stunning On Your Big Day", desc:"Handpicked lehengas and sarees for your most memorable moments.", cta:"Explore", bg:"from-purple-50 via-pink-50 to-cream", img:"https://images.unsplash.com/photo-1617627143233-a09de2e78041?w=700&q=80" },
 ];
 const FEATURES = [
-  { icon:<Truck size={22}/>, title:"Free Shipping", desc:"On orders above ₹999" },
+  { icon:<Truck size={22}/>, title:"Free Shipping", desc:"On orders above ₹4,999" },
   { icon:<RefreshCw size={22}/>, title:"Easy Returns", desc:"7-day hassle-free returns" },
   { icon:<Shield size={22}/>, title:"Secure Payments", desc:"100% safe & trusted" },
   { icon:<Headphones size={22}/>, title:"24/7 Support", desc:"Always here to help" },
