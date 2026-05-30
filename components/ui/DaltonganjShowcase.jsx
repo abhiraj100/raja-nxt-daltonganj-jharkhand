@@ -58,8 +58,8 @@ const VARIETIES = [
   { label: "Lehengas",        count: "150+",  icon: "👗", desc: "Bridal, Party, Festive" },
   { label: "Kurtis & Suits",  count: "300+",  icon: "👘", desc: "Daily, Formal, Designer" },
   { label: "Western Wear",    count: "180+",  icon: "🛍️", desc: "Tops, Dresses, Co-ords" },
-  { label: "Accessories",     count: "400+",  icon: "💍", desc: "Jewellery, Bags, Scarves" },
-  { label: "Footwear",        count: "120+",  icon: "👡", desc: "Heels, Flats, Ethnic" },
+  // { label: "Accessories",     count: "400+",  icon: "💍", desc: "Jewellery, Bags, Scarves" },
+  // { label: "Footwear",        count: "120+",  icon: "👡", desc: "Heels, Flats, Ethnic" },
 ];
 
 const colorMap = {
