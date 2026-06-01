@@ -1,4 +1,27 @@
-export const CATEGORIES = ["All","Sarees","Kurtis","Lehengas","Salwar Suits"];
+// export const CATEGORIES = ["All","Sarees","Kurtis","Lehengas","Salwar Suits"];
+export const CATEGORIES = [
+  "All",
+  "Sarees",
+  "Kurtis",
+  "Lehengas",
+  "Salwar Suits",
+  "Pant Style",
+  "Palazzo Style",
+  "Frock Style",
+  "Gown",
+  "Crop Top",
+  "Indo-Western",
+  "Bridal Lehenga Saree",
+  "Ready-to-Wear Saree",
+  "Co-ord Set",
+  "Ghunghat",
+  "Patiala",
+  "Farshi",
+  "Pakistani Suits",
+  "Suit Pieces",
+  "Printed Suit",
+  "Printed Saree"
+];
 export const BADGES = ["Bestseller","New","Premium","Trending","Sale"];
 
 export const STORE_INFO = {
