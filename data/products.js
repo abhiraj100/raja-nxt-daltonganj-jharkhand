@@ -20,7 +20,8 @@ export const CATEGORIES = [
   "Pakistani Suits",
   "Suit Pieces",
   "Printed Suit",
-  "Printed Saree"
+  "Printed Saree",
+  "Lehenga"
 ];
 export const BADGES = ["Bestseller","New","Premium","Trending","Sale"];
 
